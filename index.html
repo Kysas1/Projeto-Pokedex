@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokédex</title>
+    <!--Links-->
     <link rel="shortcut icon" href="/favicons/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/syle.css">
+    <!--Main Js-->
+    <script defer src="/js/script.js"></script>
 </head>
 <body>
     <main>
-        <img src="https://giffiles.alphacoders.com/139/13940.gif" alt="pokemon" class="pokemon_image">
+        <img src="#" alt="pokemon" class="pokemon_image">
         <h1 class="pokemon_data">
-            <span class="pokemon_number">6 - 
-                <span class="pokemon_name">charizard</span>
-            </span>
+            <span class="pokemon_number"></span>
+           - <span class="pokemon_name"> </span>
         </h1>
 
         <form class="form">
@@ -24,6 +26,11 @@
             required
             >
         </form>
+
+        <div class="buttons">
+            <button class="button btn-prev">Prev &lt;</button>
+            <button class="button btn-next">Next &gt;</button>
+        </div>
 
         <img class="pokedex" src="/images/pokedex.png" alt="pokedex">
     </main>
