@@ -38,7 +38,7 @@ main {
     position: absolute;
     font-weight: 600;
     color: #aaa;
-    left: 50%;
+    left: 45%;
     bottom: 42%;
     transform: translate(-25%, 20%);
     font-size: clamp(8px,5vw,25px);
